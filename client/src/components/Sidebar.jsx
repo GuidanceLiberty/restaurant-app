@@ -26,7 +26,8 @@ const Sidebar = () => {
         <div className="flex flex-col text-center">
             <NavLink to={`/home`} className='flex justify-center items-center gap-3 text-2xl font-semibold max-md:hidden' >
                 <img src={logo} alt="logo" className='h-8 object-contain' />
-                <span className='text-accent'>Eatsy</span>
+                <span className='text-accent'>NEW-GUIDANCE</span>
+                
             </NavLink>
             
 

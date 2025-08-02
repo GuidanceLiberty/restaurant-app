@@ -1,8 +1,4 @@
 import heroImg from '../assets/hero-table-2.jpg'
-import cake from '../assets/confectioneries-7.jpeg'
-import soup from '../assets/local-soup.jpg'
-import chinese from '../assets/chinese-4.jpg'
-import vegan from '../assets/vegetarian-2.jpg'
 import useSWR from 'swr'
 import { NavLink, useNavigate } from 'react-router-dom'
 import placeholder from '../assets/placeholder.jpg'
@@ -31,13 +27,13 @@ const Hero = () => {
 
         <div className="hero-title">
           <div className='text-2xl flex flex-col text-center gap-x-5 gap-y-2'>
-              <span className='text-[1.5rem] uppercase text-accent'>Eatsy</span>
+              <span className='text-[1.5rem] uppercase text-accent'>NEW-GUIDANCE</span>
               <span className=''> 
-                <span className='text-accent'>Restaurant</span>  
+                <span className='text-orange-600'>Restaurant</span>  
                 {/* <span className='text-orange-400'> Kitchen</span>   */}
               </span>
               
-              <p className='text-[0.9rem] font-light'>
+              <p className='text-[0.9rem] font-bold'>
               A fine dining restaurant offering a fusion of international flavors with fresh, locally sourced ingredients. From gourmet appetizers to signature main courses, every dish is crafted with excellence. With elegant ambiance, exceptional service, and a curated wine selection, it ensures an unforgettable culinary experience for every guest.
               </p>
           </div>
