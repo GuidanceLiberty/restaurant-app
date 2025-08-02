@@ -2,7 +2,7 @@ import { NavLink, useNavigate, useParams } from 'react-router-dom'
 import { RiAddLine, RiDeleteBin3Line, RiPencilLine, RiSettings2Line, RiStarFill } from '@remixicon/react'
 import { useEffect, useState } from 'react'
 import useSWR from 'swr'
-import CreateCategoryModal from '../components/modals/categories/CreateCategoryModal'
+
 
 
 const Profile = () => {
